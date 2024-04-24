@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'GameTitle';
+    src: url('Fonts/Jersey25-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GameBody';
+    src: url('Fonts/Abel-Regular.ttf') format('truetype');
+}
+
+.custom-title{
+    font-family: 'GameTitle', sans-serif !important;
+    color: #999999;
+    font-size: 7vw;
+}
+
+.custom-text {
+    font-family: 'GameBody', sans-serif !important;
+    color: #999999;
+    font-size: 2vw;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
